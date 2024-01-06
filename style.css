@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+*p {
+    gap: 10px;
+}
+
 .header {
     background-image: url('./new-year-new-me/images/banner/banner1.png');
     background-size: cover;
@@ -63,8 +67,8 @@ header .content {
     margin: auto;
     align-items: center;
     justify-content: space-around;
-    margin-top: 120px;
-    padding: 100px;
+    margin-top: 100px;
+
 }
 
 .profile_pic {
@@ -76,9 +80,9 @@ header .content {
     height: 527.929px;
 }
 
-.info h2 {
+h2 {
     color: #151414;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
 }
@@ -98,7 +102,134 @@ header .content {
     /* 162.5% */
 }
 
-.info ul li i{
+.info ul li i {
     color: green;
     padding-right: 8px;
+}
+
+.two {
+    width: 80%;
+    margin: auto;
+    margin: 120px;
+    margin-top: 100px;
+}
+
+.two h2 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row .col img {
+    width: 85px;
+    height: 85px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.col {
+    text-align: center;
+}
+
+.col h4 {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.col p {
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.three {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url('./new-year-new-me/images/watch.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 150px;
+    border-radius: 6px;
+}
+
+.three h2 {
+    text-align: left;
+    color: #FFF;
+    padding-top: 70px;
+    padding-left: 65px;
+}
+
+.three .btn {
+    color: #F15B22;
+    margin-left: 65px;
+    background-color: #FFF;
+    text-align: left;
+}
+
+/*-----footer----*/
+
+.footer {
+    background: #151414;
+    padding: 130px 170px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.footer-col h2 {
+    color: #FFF;
+}
+
+.footer-col p {
+    color: #FFF;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    /* 162.5% */
+}
+
+.footer-col img{
+    padding-right: 10px;
+}
+
+.footer-col h4 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer input{
+    background-color:transparent;
+    height: 50px;
+    width: 250px;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    margin-bottom: 20px;
+}
+
+.footer ::placeholder{
+    color: #f3f3f3;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.footer .btn{
+    color: #FFF;
+    background-color: #F15B22;
+    border-radius: 8px;
+    padding: 18PX 38PX ;
 }
