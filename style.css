@@ -27,16 +27,17 @@ header .content {
 
 }
 
-.header .content p {
+.description {
     color: #444343;
     text-align: right;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 30px;
+    opacity: 0.75;
     /* 162.5% */
 }
 
-.header .content .btn {
+.btn {
     border-radius: 5px;
     background: #F15B22;
     padding: 20px 25px;
@@ -46,4 +47,58 @@ header .content {
     font-size: 20px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+/*----main content------*/
+
+.one {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 120px;
+    padding: 100px;
+}
+
+.profile_pic {
+    border-radius: 527.929px;
+    background: linear-gradient(rgba(241, 91, 34, 0.20), url('./new-year-new-me/images/person.png'));
+    background-position: center;
+    background-size: cover;
+    width: 527.929px;
+    height: 527.929px;
+}
+
+.info h2 {
+    color: #151414;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.info p {
+    text-align: left;
+    margin-bottom: 16px;
+    opacity: 0.75;
+}
+
+.info ul li {
+    list-style: none;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.75;
+    /* 162.5% */
+}
+
+.info ul li i{
+    color: green;
+    padding-right: 8px;
 }
