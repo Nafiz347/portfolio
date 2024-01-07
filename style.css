@@ -73,7 +73,7 @@ header .content {
 
 .profile_pic {
     border-radius: 527.929px;
-    background: linear-gradient(rgba(241, 91, 34, 0.20), url('./new-year-new-me/images/person.png'));
+    background: linear-gradient(rgba(241, 91, 34, 0.20),rgba(241, 91, 34, 0.20)), url('./new-year-new-me/images/person.png');
     background-position: center;
     background-size: cover;
     width: 527.929px;
@@ -156,7 +156,9 @@ h2 {
     width: 80%;
     margin: auto;
     margin-top: 100px;
-    background-image: url('./new-year-new-me/images/watch.png');
+    border-radius: 8px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url('./new-year-new-me/images/watch.png');
     background-size: cover;
     background-position: center;
     height: 300px;
